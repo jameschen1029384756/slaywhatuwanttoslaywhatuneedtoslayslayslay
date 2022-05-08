@@ -15,7 +15,7 @@ import { useETHBalances } from '../../state/wallet/hooks';
 import { LightCard } from '../Card';
 import { Moon, Sun } from 'react-feather';
 import Row, { RowFixed } from '../Row';
-import Web3Status from '../Web3Status';
+import Web3Status from '../Web3Status/index';
 
 const HeaderFrame = styled.div`
   width: 100vw;
